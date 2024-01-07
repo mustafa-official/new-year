@@ -135,7 +135,7 @@ section {
     margin-top: 24px;
 }
 
-.welcome-section .welcome-section-heading h3 {
+.welcome-section .welcome-section-heading button {
     color: #FFF;
     font-family: Inter;
     font-size: 16px;
@@ -143,6 +143,9 @@ section {
     text-transform: uppercase;
     margin-top: 48px;
     margin-left: 32px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 .welcome-section .welcome-section-heading {
@@ -237,9 +240,9 @@ section {
 }
 
 .coming-soon-section .column-two img {
-	border: 15px solid #F00;
-	border-radius: 50%;
-	padding: 49px;
+    border: 15px solid #F00;
+    border-radius: 50%;
+    padding: 49px;
 }
 
 .coming-soon-section .column-three h1 {
@@ -256,9 +259,133 @@ section {
     font-weight: 400;
     line-height: 32px;
 }
-.coming-soon-section .column-three{
+
+.coming-soon-section .column-three {
     max-width: 226px;
 }
 
 /* portfolio-section */
 
+.portfolio-section h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.portfolio-section h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.portfolio-section p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.portfolio-section .portfolio-section-title {
+    max-width: 734px;
+}
+
+.portfolio-section .portfolio-main-img img {
+    max-width: 347px;
+    transition: .4s;
+
+}
+
+.portfolio-section .portfolio-main-img img:hover {
+    transform: scale(1.2);
+}
+
+.portfolio-section .portfolio-main-img {
+    margin-top: 48px;
+}
+
+.portfolio-section .portfolio-img-one {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.portfolio-section .portfolio-img-two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+/* subscribe-section */
+
+.subscribe-section .container {
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+
+}
+
+.subscribe-section .subscribe-section-item {
+    text-align: center;
+    padding: 80px 0;
+    max-width: 734px;
+    margin: 0 auto;
+}
+
+.subscribe-section h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 40px;
+}
+
+.subscribe-section p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+    margin-bottom: 48px;
+}
+
+.subscribe-section form {
+    max-width: 530px;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.subscribe-section form input {
+    flex-grow: 1;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    border: none;
+    outline: none;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.subscribe-section form button {
+    padding: 25px 56px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.subscribe-section form input::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
