@@ -23,7 +23,7 @@ header {
 }
 
 header .container {
-    background: url('../images/banner-image.png');
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/banner-image.png');
     border-radius: 16px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -103,10 +103,11 @@ section {
 /* welcome-section */
 
 .welcome-section .container {
-    background-image: url('../images/vector.png');
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/vector.png');
     border-radius: 16px;
     background-size: cover;
     background-repeat: no-repeat;
+    
 
 
 }
