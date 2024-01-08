@@ -266,16 +266,18 @@ section {
 
 /* holyday-section */
 
-.holyday-section .container{
+.holyday-section .container {
     background-image: url('../images/rectangle2.png');
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: bottom;
 }
-.holyday-section .holyday-heading-item{
+
+.holyday-section .holyday-heading-item {
     margin: 0 auto;
     max-width: 875px;
     text-align: center;
 }
+
 .holyday-section h3 {
     color: #070211;
     font-family: Inter;
@@ -289,6 +291,8 @@ section {
     font-size: 60px;
     font-style: normal;
     font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 28px;
 }
 
 .holyday-section h2 span {
@@ -302,25 +306,14 @@ section {
     font-weight: 500;
     line-height: 32px;
 }
-.holyday-section .holyday-img-item img{
+
+.holyday-section .holyday-img-item img {
     width: 100%;
     display: block;
+    
 
 }
-.holyday-section .img-item-two img{
-    /* z-index: -1; */
-    position: relative;
-}
-
-/* .holyday-section .img-item-two img::before{
-    position: absolute;
-    content: '';
-    background: url('../images/group44.png');
-    width: 307px;
-    height: 306px;
-    z-index: 9999;
-} */
-.holyday-section .holyday-img-item{
+.holyday-section .holyday-img-item {
     display: flex;
     justify-content: space-between;
 }
@@ -354,6 +347,7 @@ section {
 
 .portfolio-section .portfolio-section-title {
     max-width: 734px;
+
 }
 
 .portfolio-section .portfolio-main-img img {
