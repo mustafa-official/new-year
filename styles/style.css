@@ -103,13 +103,10 @@ section {
 /* welcome-section */
 
 .welcome-section .container {
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/vector.png');
+    background: linear-gradient(45deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/vector.png');
     border-radius: 16px;
     background-size: cover;
     background-repeat: no-repeat;
-    
-
-
 }
 
 .welcome-main-column {
@@ -158,6 +155,7 @@ section {
 
 .welcome-section .welcome-section-img img {
     width: 100%;
+
 }
 
 .welcome-section .welcome-section-img {
@@ -266,6 +264,68 @@ section {
     max-width: 226px;
 }
 
+/* holyday-section */
+
+.holyday-section .container{
+    background-image: url('../images/rectangle2.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.holyday-section .holyday-heading-item{
+    margin: 0 auto;
+    max-width: 875px;
+    text-align: center;
+}
+.holyday-section h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.holyday-section h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.holyday-section h2 span {
+    color: #F00;
+}
+
+.holyday-section p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.holyday-section .holyday-img-item img{
+    width: 100%;
+    display: block;
+
+}
+.holyday-section .img-item-two img{
+    /* z-index: -1; */
+    position: relative;
+}
+
+/* .holyday-section .img-item-two img::before{
+    position: absolute;
+    content: '';
+    background: url('../images/group44.png');
+    width: 307px;
+    height: 306px;
+    z-index: 9999;
+} */
+.holyday-section .holyday-img-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 /* portfolio-section */
 
 .portfolio-section h3 {
@@ -302,7 +362,8 @@ section {
     display: block;
 
 }
-.portfolio-section .portfolio-main-img{
+
+.portfolio-section .portfolio-main-img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 24px;
