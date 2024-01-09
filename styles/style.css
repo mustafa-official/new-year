@@ -269,10 +269,44 @@ section {
 
 /*holyday section*/
 
+.holyday-section .holyday-heading-item{
+    max-width: 875px;
+    margin: 0 auto;
+    text-align: center;
+}
+.holyday-section .holyday-heading-item h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.holyday-section .holyday-heading-item h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+.holyday-section .holyday-heading-item span{
+    color: #F00;
+}
+
+.holyday-section .holyday-heading-item p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
 .holyday-section .holyday-main-column {
     display: flex;
     justify-content: space-between;
     align-items: end;
+    margin-top: -160px;
 
 }
 
@@ -285,7 +319,7 @@ section {
 .holyday-section .column-item-one {
     position: relative;
     top: 158px;
-    
+
 }
 
 .holyday-section .column-item-two {
@@ -296,7 +330,7 @@ section {
 .holyday-section .column-item-two::before {
     position: absolute;
     content: '';
-    background: url('img/group50.png');
+    background: url('../images/group50.png');
     background-repeat: no-repeat;
     width: 250px;
     height: 251px;
@@ -306,11 +340,11 @@ section {
 }
 
 .holyday-section .column-item-three {
-    background: url('img/rectangle2.png');
+    background: url('../images/rectangle2.png');
     background-repeat: no-repeat;
     height: 180px;
     border-radius: 16px 0px 16px 16px;
-    
+
 }
 
 /* portfolio-section */
@@ -407,7 +441,7 @@ section {
 .subscribe-section form input {
     flex-grow: 1;
     padding-top: 22px;
-  padding-bottom: 22px;
+    padding-bottom: 22px;
     padding-left: 30px;
     border: none;
     outline: none;
@@ -415,15 +449,15 @@ section {
 }
 
 .subscribe-section form button {
-	padding: 22px 50px;
-	border-radius: 0px 50px 50px 0px;
-	background: #F00;
-	border: none;
-	color: #FFF;
-	font-family: Inter;
-	font-size: 16px;
-	font-weight: 600;
-	cursor: pointer;
+    padding: 22px 50px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .subscribe-section form input::placeholder {
