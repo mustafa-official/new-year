@@ -267,6 +267,52 @@ section {
     margin-top: 132px;
 }
 
+/*holyday section*/
+
+.holyday-section .holyday-main-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+}
+
+.holyday-section .holyday-main-column img {
+    width: 100%;
+    display: block;
+
+}
+
+.holyday-section .column-item-one {
+    position: relative;
+    top: 158px;
+    
+}
+
+.holyday-section .column-item-two {
+    width: 26%;
+    position: relative;
+}
+
+.holyday-section .column-item-two::before {
+    position: absolute;
+    content: '';
+    background: url('img/group50.png');
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 251px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -125px;
+}
+
+.holyday-section .column-item-three {
+    background: url('img/rectangle2.png');
+    background-repeat: no-repeat;
+    height: 180px;
+    border-radius: 16px 0px 16px 16px;
+    
+}
+
 /* portfolio-section */
 
 .portfolio-section h3 {
@@ -360,8 +406,8 @@ section {
 
 .subscribe-section form input {
     flex-grow: 1;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 22px;
+  padding-bottom: 22px;
     padding-left: 30px;
     border: none;
     outline: none;
@@ -369,15 +415,15 @@ section {
 }
 
 .subscribe-section form button {
-    padding: 25px 56px;
-    border-radius: 0px 50px 50px 0px;
-    background: #F00;
-    border: none;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
+	padding: 22px 50px;
+	border-radius: 0px 50px 50px 0px;
+	background: #F00;
+	border: none;
+	color: #FFF;
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
 }
 
 .subscribe-section form input::placeholder {
